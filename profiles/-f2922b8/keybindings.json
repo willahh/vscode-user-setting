@@ -38,5 +38,15 @@
     {
         "key": "ctrl+cmd+`",
         "command": "workbench.action.toggleMaximizedPanel"
+    },
+    {
+        "key": "ctrl+cmd+space",
+        "command": "emacs.startRegionMode",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+space",
+        "command": "-emacs.startRegionMode",
+        "when": "editorFocus"
     }
 ]
