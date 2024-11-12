@@ -48,5 +48,38 @@
         "key": "ctrl+space",
         "command": "-emacs.startRegionMode",
         "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+b",
+        "command": "cursorWordEndLeftSelect"
+    },
+    {
+        "key": "ctrl+shift+alt+f",
+        "command": "cursorWordRightSelect"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-cursorRightSelect",
+        "when": "editorTextFocus && inRegionMode"
+    },
+    {
+        "key": "ctrl+shift+f",
+        "command": "cursorRightSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+b",
+        "command": "cursorLeftSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+alt+f",
+        "command": "cursorWordEndRight",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+f",
+        "command": "cursorWordEndRightSelect",
+        "when": "textInputFocus"
     }
 ]
