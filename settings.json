@@ -1,0 +1,59 @@
+{
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "emmet.triggerExpansionOnTab": true,
+    "editor.tabSize": 2,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "eslint.format.enable": true,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "files.associations": {
+        "*.ts": "typescript"
+    },
+    "prettier.singleQuote": true,
+    "vscodeGoogleTranslate.preferredLanguage": "English",
+    "editor.minimap.enabled": false,
+    "tailwindCSS.includeLanguages": {
+        "plaintext": "javascript"
+    },
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "editor.rulers": [
+        120
+    ],
+    "redhat.telemetry.enabled": false,
+    "[xml]": {
+        "editor.defaultFormatter": "redhat.vscode-xml"
+    },
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "openapi.securityAuditToken": "CiDygmmEoOioruakx2yvZCmcIqtnbe27ImTBzkFaoZStrRIYLRcTsVhyzd2mBQtNnZMC2azsMCZ1y/6zGnKDsrs0jUcpx4ysvMQrmwJIQdbWEfv/F82jAKW1OF92YFXwVDfIYFaHKYnyTGM42FhhkaAGtM2cYsLOPDUKmh8iQa1M0u7kHHp8T63Gp/MeStflOT18gMelfuvsCnucv4vafITqH6231Gn69DD+JMsLnlc=",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "security.workspace.trust.untrustedFiles": "open"
+}
